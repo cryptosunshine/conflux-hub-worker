@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "conflux-hub-copilot",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-21",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "vars": {
+    "LLM_BASE_URL": "",
+    "LLM_MODEL": "",
+    "ALLOWED_ORIGINS": "http://localhost:5173,http://127.0.0.1:5173"
+  }
+}

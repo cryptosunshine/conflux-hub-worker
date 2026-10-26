@@ -1,0 +1,6 @@
+# Fill in your provider's OpenAI-compatible API base URL, model and key.
+# The base URL usually ends in /v1; do not append /chat/completions.
+# Missing model config returns an explicit 503 error.
+LLM_BASE_URL=""
+LLM_MODEL=""
+LLM_API_KEY=""
